@@ -134,4 +134,37 @@
 //     return reverseStr
 // }console.log(changeNumberToString(1,5));
 
+// additional example
 
+// 13-17
+// 1 example
+
+// function uniqElemArr(arr1,arr2) {
+//     let result=[]
+//     for (const key of arr1) {
+//         if(!arr2.includes(key)){
+// result.push(key)
+//         }
+//     }
+//     return result
+// }console.log(uniqElemArr([5,7,8,9],[1,2,5,8,4]));
+
+// 2 example
+
+// function arrAinZ(arr) {
+//     return arr.sort((a,b)=>a.localeCompare(b))
+    
+// }console.log(arrAinZ(["Salom","Alo","Imtixon","Dastur","Xayot","Go'zal"]));
+
+// 3 example
+
+// function elemSumArr(arr) {
+//     let obj={}
+//    for (const key of arr) {
+//        obj[key]=(obj[key] ||0)+1;
+    
+//    }
+//     return [arr,arr.map(el=> `${el}(${obj[el]})`)]
+        
+    
+// }console.log(elemSumArr(["a","b","a"]));
