@@ -168,3 +168,101 @@
         
     
 // }console.log(elemSumArr(["a","b","a"]));
+ 
+// 10-12 example
+
+// 1 example
+
+// function strNum(str) {
+// return str.replace(/\d+/g,match=> String(Number(match)+1))
+// }console.log(strNum("a1b2"));
+
+// 2 example
+
+// function strReverse(str) {
+//     let arr=str.split(" ")
+//     let result=""
+//     for (const element of arr) {
+//         result+=(element.split('').reverse().join(''))+" "
+//     }
+//     return result
+// }console.log(strReverse("Hello world i lowe JS"));
+
+// 3 example
+
+// function wordLength(str) {
+//     let newArr=str.split(" ")
+//     let sum=0
+//     for (let i = 0; i < newArr.length; i++) {
+//        for (let j = i+1; j < newArr.length; j++) {
+//        if(newArr[i].length===newArr[j].length){
+//         sum++
+//        }
+//        }
+//     }
+//     return sum
+// }console.log(wordLength("Hello world i lowe JS"));
+
+// 5-9 example
+
+// 1 example
+
+// function twoElem(arr) {
+//     let newArr=arr.split(' ')
+//     let obj={}
+//     for (const element of newArr) {
+//         if(obj[element]){
+//             obj[element]++
+//         }else{
+//             obj[element]=1
+//         }
+//     }
+//     let result=[]
+//     for (const key in obj) {
+//        if(obj[key]>=2){
+// result.push(key)
+//        }
+//     }
+//     return [obj,result]
+// }
+// console.log(twoElem("Salom omadning kaliti bilim bilim Salom Salom"));
+
+// // 2 example
+
+// function strSort(str) {
+//     return str.split(' ').sort((a,b)=>a.length-b.length)
+// }console.log(strSort("Salom omadning kaliti bilim va Sabr"));
+
+// 3example
+
+// function newStr(str) {
+//     let arr=str.split(' ')
+//     let newStrRusult=""
+//     for (let i = 0; i < arr.length; i++) {
+//        newStrRusult+=arr[i][0]        
+//     }
+//     return newStrRusult
+// }console.log(newStr("oz so'zla omad noil"));
+
+// 4 example
+
+// function strNum(str) {
+//     let result=str.match(/\d+/g)
+//     let result1=str.replace(/\d+/g,match=>String(Number(match)*Number(match)))
+//     return [result,result1]
+// }console.log(strNum("a2b3"));
+
+// 5 example
+
+// function strAOUIE(str) {
+//     let str1=str.toLowerCase().split(' ')
+//     let newArr=[]
+//     for (let i = 0; i < str1.length; i++) {
+//        if(str1[i][0]=="a" || str1[i][0]=="e" || str1[i][0]=="u" || str1[i][0]=="o" || str1[i][0]=="i"){
+//         newArr.push(str1[i])
+//        }
+//     }
+//     return newArr
+// }
+// console.log(strAOUIE("Ona alla uy doim dars el "));
+
